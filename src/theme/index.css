@@ -8,7 +8,6 @@ body {
 }
 
 .parent {
-  border: 1px solid black;
   height: 100%;
   width: 100%;
 }
@@ -19,7 +18,6 @@ body {
   display: inline-block;
   border-radius: 5px;
   vertical-align: top;
-  background-color: rgb(65, 16, 66);
   margin-bottom: 80px;
 }
 
@@ -53,7 +51,7 @@ body {
 }
 .rotation {
   width: 100%;
-  height: 950px;
+  height: 1100px;
   -webkit-clip-path: polygon(0 0, 57% 0, 43% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
 }

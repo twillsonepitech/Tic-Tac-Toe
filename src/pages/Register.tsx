@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../theme/index.css'
 import bgLoginPage from '../ressources/bgLoginPage.jpg'
-import { Input, Button, ButtonGroup } from '@chakra-ui/react'
-import { FaFacebook, FaTwitter, FaTelegram } from 'react-icons/fa'
+import { Input, Button } from '@chakra-ui/react'
+import { FaTwitter, FaGoogle } from 'react-icons/fa'
 
 export default class Register extends Component {
   render() {
@@ -31,8 +31,7 @@ export default class Register extends Component {
                 <Button colorScheme='purple' size={"lg"} paddingLeft={75} paddingRight={75}>Register</Button>
               </div>
               <div id="btnRegister" style={{textAlign: "center", paddingTop: "50px"}}>
-                <Button colorScheme='telegram' leftIcon={<FaTelegram />} marginLeft="5px"> Telegram </Button>
-                <Button colorScheme='facebook' leftIcon={<FaFacebook />} marginLeft="5px"> Facebook </Button>
+                <Button colorScheme='google' leftIcon={<FaGoogle />} backgroundColor="#AAB8C2" marginLeft="5px"> Google </Button>
                 <Button colorScheme='twitter' leftIcon={<FaTwitter />} marginLeft="5px"> Twitter </Button>
               </div>
               <div id="linkSignUp" style={{textAlign: "center", paddingTop: "30px"}}>

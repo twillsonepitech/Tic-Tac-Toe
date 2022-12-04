@@ -35,7 +35,7 @@ export default class Login extends Component {
                 <Button colorScheme='twitter' leftIcon={<FaTwitter />} marginLeft="5px"> Twitter </Button>
               </div>
               <div id="linkSignUp" style={{textAlign: "center", paddingTop: "30px"}}>
-                <p style={{fontSize: "12px", color: "gray"}}>Don't have an account: Sign up</p>
+                <p style={{fontSize: "12px", color: "gray"}}>Don't have an account: <a href="http://localhost:3000/register"> Sign up </a></p>
               </div>
           </div>
 

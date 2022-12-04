@@ -34,7 +34,7 @@ export default class Register extends Component {
                 <Button colorScheme='twitter' leftIcon={<FaTwitter />} marginLeft="5px"> Twitter </Button>
               </div>
               <div id="linkSignUp" style={{textAlign: "center", paddingTop: "30px"}}>
-                <p style={{fontSize: "12px", color: "gray"}}>You have an account: Login </p>
+                <p style={{fontSize: "12px", color: "gray"}}>You have an account: <a href="http://localhost:3000/login"> Login </a></p>
               </div>
           </div>
 

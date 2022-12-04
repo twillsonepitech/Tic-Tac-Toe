@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../theme/index.css'
 import bgLoginPage from '../ressources/bgLoginPage.jpg'
 import { Input, Button } from '@chakra-ui/react'
